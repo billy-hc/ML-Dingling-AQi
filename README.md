@@ -37,13 +37,13 @@ To run the Air Quality Analysis Dashboard, follow these steps:
 1. **Create and Activate a Python Environment**:
    - If using Conda (ensure [Conda](https://docs.conda.io/en/latest/) is installed):
      ```
-     conda create --name airquality-ds python=3.9
-     conda activate airquality-ds
+     conda create --name aqi-dl python=3.9
+     conda activate aqi-dl
      ```
    - If using venv (standard Python environment tool):
      ```
-     python -m venv airquality-ds
-     source airquality-ds/bin/activate  # On Windows use `airquality-ds\Scripts\activate`
+     python -m venv aqi-dl
+     source aqi-dl/bin/activate  # On Windows use `aqi-dl\Scripts\activate`
      ```
 
 2. **Install Required Packages**:
@@ -68,7 +68,7 @@ To run the Air Quality Analysis Dashboard, follow these steps:
 ### Additional Files
 
 - The dataset used for this analysis is included in the project repository.
-- A detailed Python notebook (`Dingling_AQI_Visualization.ipynb`) containing the data analysis and visualizations is also provided.
+- A detailed Python notebook (`ML-DinglingAQI-Visualization.ipynb`) containing the data analysis and visualizations is also provided.
 ---
 ## About Me
 - **Name**: William Heria Chandra
